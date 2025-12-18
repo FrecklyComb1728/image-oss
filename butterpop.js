@@ -561,7 +561,7 @@
     // Try to load the CSS file
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = './butterpop.min.css';
+    link.href = 'butterpop.min.css';
     link.setAttribute('data-butterpop-css', 'true');
     document.head.appendChild(link);
     
